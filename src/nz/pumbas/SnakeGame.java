@@ -14,8 +14,8 @@ import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Popup;
 import javafx.stage.Stage;
-import nz.pumbas.HighScore.HighScore;
-import nz.pumbas.HighScore.HighScoreManager;
+import nz.pumbas.HighScorePackage.HighScore;
+import nz.pumbas.HighScorePackage.HighScoreManager;
 import nz.pumbas.UtilityClasses.Direction;
 import nz.pumbas.UtilityClasses.Tile;
 import nz.pumbas.UtilityClasses.Vector;
@@ -207,6 +207,7 @@ public class SnakeGame
 
     private void managePopup() {
         popup = new Popup();
+        popup.setAutoHide(true);
         GridPane popupGrid = new GridPane();
         popupGrid.setPadding(new Insets(5));
         popupGrid.setStyle("-fx-background-color: white");
