@@ -11,13 +11,17 @@ Alternatvely, a currently slightly outdated version of this file can be download
 
 ## FEATURES:
 
-> Basic Snake gameplay
-> Score counter
-> High score display
-> Ability to save highscores between games
+> Basic Snake gameplay.
+
+> Score counter.
+
+> High score display.
+
+> Ability to save highscores between games.
 
 
 ## UNDER DEVELOPMENT: 
 
 > Options Menu will allow for control, colour and game customization.
+
 > Select AI to play? 
