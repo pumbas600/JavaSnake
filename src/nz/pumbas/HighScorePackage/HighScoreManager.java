@@ -43,7 +43,7 @@ public class HighScoreManager
         }
 
         //Checks if its a valid new highscore (greater than the lowest score)
-        else if (score > (int) highScores[highScores.length - 1].score) {
+        else if (score > highScores[highScores.length - 1].score) {
             highScores[highScores.length - 1] = new HighScore(name, score);
         }
 

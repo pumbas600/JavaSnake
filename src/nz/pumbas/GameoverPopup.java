@@ -12,7 +12,6 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
-import javafx.scene.text.Text;
 import javafx.stage.Popup;
 import nz.pumbas.HighScorePackage.HighScore;
 import nz.pumbas.HighScorePackage.HighScoreManager;
@@ -45,7 +44,7 @@ public class GameoverPopup
                 .addNode(new Label("GAME OVER"))
                 .setStyle("-fx-font-size: " + SnakeGame.TILE_SIZE +";" +
                         " -fx-font-family: verdana; -fx-font-weight: bold; -fx-alignment: CENTER")
-                .startOptionalNodes(() -> {return highScoreManager.isNewHighScore(score);})
+                .startOptionalNodes(() -> highScoreManager.isNewHighScore(score))
                 .addNode(highScoreName)
                 .addNode(nameInput)
                 .addNode(submit)

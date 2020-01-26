@@ -26,10 +26,10 @@ import java.util.Random;
 public class SnakeGame
 {
     public static final int TILE_SIZE = 20; //In pixels
-    public static final int SNAKE_SPEED = 8; //Movements per second
+    public static final int SNAKE_SPEED = 9; //Movements per second
     public static final int START_SIZE = 5; //Number of tiles large the snake should be
-    public static final int TILE_WIDTH = 50; //The width of the screen in tiles
-    public static final int TILE_HEIGHT = 35; //The height of the screen in tiles
+    public static final int TILE_WIDTH = 35; //The width of the screen in tiles
+    public static final int TILE_HEIGHT = 20; //The height of the screen in tiles
     public static final int LABEL_HEIGHT = 3;
 
     private static final int FRAME_RATE = 60; //Framerate of the game - DO NOT CHANGE

@@ -14,7 +14,7 @@ public class HighScore {
 
     @Override
     public String toString() {
-        return name + "," + String.valueOf(score);
+        return name + "," + score;
     }
 
     public Label getAsLabel(int position) {
